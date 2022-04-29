@@ -1,14 +1,46 @@
 p 
 {
-    color:blue !important; 
+    color:rgb(202, 202, 226) !important; 
 
 }
 body
 {
-    background-color:rgb(248, 10, 10);
+   
+    background-color:rgb(20, 2, 2);
 }
 .barra
 {
- background-color: green;
+ background-color: rgb(15, 69, 170);
  height: 10%;
 }
+.img
+{
+ width: 300px;
+ height: 250px;
+ position: absolute;
+ top: 10;
+
+}
+.cuadro
+{
+width: 250px;
+height: 250px;
+background-color: black;
+position: relative;
+left: 200px;
+top: 00px;
+border-radius: 30%;
+
+}
+.dos
+{
+width: 250px;
+height: 250px;
+background-color: black;
+position: relative;
+left: 690px;
+top: -520px;
+border-radius: 30%;
+
+}
+
