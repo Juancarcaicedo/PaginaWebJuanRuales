@@ -1,46 +1,162 @@
-p 
-{
-    color:rgb(202, 202, 226) !important; 
-
-}
-body
-{
-   
-    background-color:rgb(20, 2, 2);
-}
-.barra
-{
- background-color: rgb(15, 69, 170);
- height: 10%;
-}
-.img
-{
- width: 300px;
- height: 250px;
- position: absolute;
- top: 10;
-
-}
-.cuadro
-{
-width: 250px;
-height: 250px;
-background-color: black;
-position: relative;
-left: 200px;
-top: 00px;
-border-radius: 30%;
-
-}
-.dos
-{
-width: 250px;
-height: 250px;
-background-color: black;
-position: relative;
-left: 690px;
-top: -520px;
-border-radius: 30%;
-
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
+body {
+  background: #060606;
+}
+title{
+  font-size: 1.4em;
+  color: #ffbf5e;
+}
+header {
+  float: left;
+  height: 120px;
+  width: 70%;
+  background: rgb(51, 51, 51);
+  line-height: 120px;
+  text-align: center;
+  margin: 0px;
+  color: #600f0f;
+}
+
+header h3 {
+  font-size: 1.7em;
+  color: #3c9038;
+  padding: 0px 400px 20px 50px;
+}
+nav {
+  float: left;
+  height: 90px;
+  width: 45%;
+  background: rgba(30, 182, 13, 0.557);
+  line-height: 100px;
+  margin: 0;
+}
+
+nav ul li {
+  float: left;
+  color: #ffbf5e;
+  margin: 15px;
+  line-height: 15px;
+  font-size: 1.5em;
+  padding: 0px 0px 0px 20px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #c0c0c0;
+}
+
+nav {
+  float: left;
+  height: 120px;
+  width: 50%;
+  background: rgba(30, 182, 13, 0.557);
+  line-height: 160px;
+  margin: 0;
+}
+
+nav a {
+  padding: 0.5rem 0.5rem;
+}
+
+nav a:hover {
+  background: #3c9038;
+  border-radius: 15px;
+}
+
+.post {
+  clear: both;
+  /* clear especifica si un elemento puede estar al lado de elementos flotantes que lo preceden o si debe ser movido (cleared)  
+    both es  un keyword que indica que el elemento es movido hacia abajo para limpiar elementos flotantes a la derecha. */
+}
+
+section.video {
+  margin: 2% 30% 0% 20%;
+  /* MARGEN DEL VIDEO  */
+}
+
+section h3 {
+  font-size: 1.7em;
+  text-align: center;
+  color: #3c9038;
+  /* seccion para centrar el texto  tamaña de letra 1.7 centrado */
+}
+
+section p {
+  font-size: 1.4em;
+  text-align: center;
+  color:white;
+}
+
+section iframe {
+  border-radius: 15px;
+  /* borde del radio */
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+  background-color: black;
+  position: relative;
+  left: 00px;
+  top: -400px;
+  border-radius: 30%;
+
+}
+.image2 {
+  width: 180px;
+  height: 180px;
+  background-color: black;
+  position: relative;
+  left: 1050px;
+  top: -490px;
+  border-radius: 30%;
+
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+  font-size: 60px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000c00;
+  transition: transform 0.5s;
+}
+
+footer i {
+  color: #021702;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+footer a:hover,
+i:hover {
+  transform: translateY(-1rem);
+}
+h2 {
+  text-align: center;
+  color:rgb(51, 110, 159);
+  font: normal 16px arial;
+}
+#piePrin{
+  background-color: #51b1e1;
+  clear:both;
+  margin-top:30px;
+  height: 150px;
+  border-radius: .5em;
+  max-width: 90%;
+  margin: auto;
+  text-align: center;
+}
